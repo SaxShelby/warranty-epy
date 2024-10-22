@@ -1,0 +1,8 @@
+[build]
+  publish = "build"  # ที่อยู่ของโฟลเดอร์ที่สร้างโดย React
+  command = "npm run build"  # คำสั่งในการสร้างแอปพลิเคชัน
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
